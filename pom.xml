@@ -70,9 +70,10 @@
         </dependency>
 
         <dependency>
-            <groupId>fr.insalyon.creatis</groupId>
-            <artifactId>moteur2-workflowsdb-common</artifactId>
-            <version>1.6</version>
+            <groupId>com.github.sandepat</groupId>
+            <artifactId>moteur2-WorkflowsDB-Common</artifactId>
+            <version>0828e8940c</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
@@ -83,6 +84,10 @@
             <name>Creatis Insa Lyon repository [creatis]</name>
             <url>https://vip.creatis.insa-lyon.fr:9007/nexus/repository/public</url>
         </repository>
+        <repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
     </repositories>
 
     <distributionManagement>
